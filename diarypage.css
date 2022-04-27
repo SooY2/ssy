@@ -1,0 +1,52 @@
+.weekly_main{
+    margin-left: 20px;
+    margin-top: 10px;
+    width:950px; height:500px ;
+    
+}
+table{
+    border-collapse: collapse;
+}
+.weekly_days{
+    /*display: flex;*/
+    
+    height: 30px;
+    border-top: 1px solid #333333;
+    border-right: 1px solid #333333;
+    
+}
+
+.weekly_day {
+    width: calc(700px / 7);
+    
+    text-align: center;
+    border-left: 1px solid #333333;
+    font-weight: bold;
+  }
+  .checklists{
+      /*display: flex;*/
+      height: 450px;
+      border-left: 1px solid #333333;
+      border-bottom: 1px solid #333333;
+      border-top: 1px solid #333333;
+      margin-bottom: 5px;
+  }
+  .checklist{
+      width: calc(700px/7);
+      
+      border-right: 1px solid #333333;
+      
+  }
+
+  .todo{
+      margin-top: 10px;
+      width:950px; 
+  }
+  
+  .subtodo{
+      width: 450px; height: 180px;
+      overflow: scroll;
+      background-color: aliceblue;
+      float:left;
+      margin: 10px;
+  }

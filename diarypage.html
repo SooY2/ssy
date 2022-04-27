@@ -1,0 +1,129 @@
+
+
+<!DOCTYPE html>
+<html>
+    <title>dear my diary</title>
+
+    <meta charset="UTF-8">
+        
+    <link rel="stylesheet" href="mainpage.css">
+    <link rel="stylesheet" href="diarypage.css">
+
+    <body>
+        <header>
+            <img src="로고.png">
+        </header>
+
+        <div id="mp"> 
+            <div id = "lp">
+                <div class="cal">
+                    <settings-cal>
+                            
+                    </settings-cal>
+                </div>
+                
+                <button class="list"><img src="diary.png" onclick="alert('diary')"></button>
+                <button class="list"><img src="plan.png" ></button>
+                <button class="list"><img src="memo.png"></button>
+                <button class="list"><img src="board.png"></button>
+                <button class="list"><img src="profile.png"></button>
+
+                </div>
+    
+            <span id = "rp"> <!-- -->
+                <div class="weekly_header">
+
+                    <setting-weekly>                    
+                    </div>
+                    <div class="weekly_main">
+                        <!--<div class="weekly_days">
+                            <div class="weekly_day">월</div>
+                            <div class="weekly_day">화</div>
+                            <div class="weekly_day">수</div>
+                            <div class="weekly_day">목</div>
+                            <div class="weekly_day">금</div>
+                            <div class="weekly_day">토</div>
+                            <div class="weekly_day">일</div>
+                        </div>
+                        <div class="checklists">
+                            <div class="checklist">
+                                
+                            </div>
+                            <div class="checklist">
+                            </div>
+                            <div class="checklist">
+                            </div>
+                            <div class="checklist">
+                            </div>
+                            <div class="checklist">
+                            </div>
+                            <div class="checklist">
+                            </div>
+                            <div class="checklist">
+                            </div>
+                        </div> -->
+                        
+
+                        <table>
+                            <thead>
+                                <tr class="weekly_days">
+                                    <th class="weekly_day">월</th>
+                                    <th class="weekly_day">화</th>
+                                    <th class="weekly_day">수</th>
+                                    <th class="weekly_day">목</th>
+                                    <th class="weekly_day">금</th>
+                                    <th class="weekly_day">토</th>
+                                    <th class="weekly_day">일</th>
+                                </tr>
+                                
+                            </thead>
+                            <tbody>
+                                <tr class="checklists">
+                                <td class="checklist"></td>
+                                <td class="checklist"></td>
+                                <td class="checklist"></td>
+                                <td class="checklist"></td>
+                                <td class="checklist"></td>
+                                <td class="checklist"></td>
+                                <td class="checklist"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    </setting-weekly>
+                
+                    <setting-todo>
+                        
+                        <textarea  class="subtodo">매일 하는일</textarea>
+                        <textarea  class="subtodo">할 일</textarea>
+                        
+                        
+                        
+                    </setting-todo>
+                </div>
+
+    
+            </span>
+            <span id = "bookmark">
+                <div >
+                    <div class="bookmarker" style="background-color: #FA5858;"></div>
+                </div>
+                <div class="hidden">
+                    <div class="bookmarker" style="background-color: #FAAC58;"></div>
+                </div>
+                <div class="hidden">
+                    <div class="bookmarker" style="background-color: #E5D85C;"></div>
+                </div>
+                <div class="hidden">
+                    <div class="bookmarker" style="background-color: #B1DB4E;"></div>
+                </div>
+                <div class="hidden">
+                    <div class="bookmarker" style="background-color: #79ABFF;"></div>
+                </div>
+                
+                
+            </span>
+
+        </div>
+
+</html>
